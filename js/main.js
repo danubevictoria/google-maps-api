@@ -25,4 +25,5 @@ function myMap() {
 	};
 }
 
+// initialize the map when the window is finished loading
 google.maps.event.addDomListener(window, 'load', myMap);
